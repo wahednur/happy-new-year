@@ -1,12 +1,12 @@
 /* Google font  */
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 /* Reset CSS start  */
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", serif, "Inter", sans-serif;
 }
 a {
   text-decoration: none;
@@ -76,4 +76,108 @@ footer {
   width: 632px;
 }
 /* Header CSS end  */
+/* Category section CSS start  */
+.category {
+  margin-top: 120px;
+}
+.category .cat-text {
+  text-align: center;
+}
+.category .cat-text .big-off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.category .cat-text .cat-del {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.category .cat-text .cat-all {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.category .cat-img {
+  text-align: center;
+  width: 802.9px;
+  height: 500px;
+  margin: 0 auto;
+}
+.category .cat-img img {
+  text-align: center;
+  width: 100%;
+}
+/* Category section CSS end  */
+/* Welcome section CSS start */
+.welcome {
+  margin-top: 120px;
+}
+.welcome .bg {
+  background-image: url("../images/wc-ov-bg.png");
+  height: 600px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+.welcome .wc-main-wrap {
+  width: calc(100% - 252px);
+  margin: 0 auto;
+}
+.welcome .wc-cont-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+}
+.welcome .wc-cont-wrap .wel-text {
+  width: 660px;
+}
+.welcome .wc-cont-wrap .wc-img {
+  width: 319px;
+}
+.welcome .wc-cont-wrap .wc-img img {
+  width: 100%;
+}
+.welcome .wc-cont-wrap .wel-text .wel-head {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.welcome .wc-cont-wrap .wel-text .wel-des {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.welcome .wc-cont-wrap .wel-text .wel-join-btn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+.wel-join-btn:hover {
+  color: #f00 !important;
+}
+/* Welcome section CSS end */
 /* Main CSS end  */
