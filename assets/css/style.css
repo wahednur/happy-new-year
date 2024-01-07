@@ -230,10 +230,10 @@ footer {
 /* Coming soon section CSS start  */
 .coming-soon {
   margin-top: 120px;
-  height: 630px;
+  height: 463px;
 }
 .coming-soon .container {
-  height: 663px;
+  height: 463px;
 }
 .com-flex-content {
   display: flex;
@@ -242,7 +242,7 @@ footer {
   align-content: center;
   justify-content: space-around;
   align-items: center;
-  height: 663px;
+  height: 463px;
 }
 .com-flex-content .text-left {
   width: 393px;
@@ -254,7 +254,7 @@ footer {
   width: 276px;
 }
 .com-flex-content .text-img .pding-circle {
-  border: 15px solid #f00;
+  outline: 15px solid #f00;
   border-radius: 463px;
   width: 463px;
   height: 463px;
@@ -263,6 +263,7 @@ footer {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  outline-offset: -15px;
 }
 .com-flex-content .text-img .pding-circle img {
   width: 364.84px;
