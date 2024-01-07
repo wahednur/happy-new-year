@@ -125,7 +125,6 @@ footer {
 .welcome .bg {
   background-image: url("../images/wc-ov-bg.png");
   height: 600px;
-  width: 100%;
   background-position: center center;
   background-size: cover;
 }
@@ -180,4 +179,52 @@ footer {
   color: #f00 !important;
 }
 /* Welcome section CSS end */
+/* Party Time CSS start  */
+.party-time {
+  margin-top: 120px;
+}
+.party-time .time {
+  text-align: center;
+  margin: 0 auto;
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.party-time .time span {
+  color: #f00;
+}
+.party-time .container {
+  height: 482px;
+  text-align: center;
+  display: block;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.party-wrap {
+  margin-top: 100px !important;
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+.party-time a.join {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center !important;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 48px;
+}
+/* Party Time CSS end  */
 /* Main CSS end  */
