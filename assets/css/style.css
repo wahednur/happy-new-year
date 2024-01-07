@@ -174,6 +174,7 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 32px;
+  transition: all ease-in-out 500ms;
 }
 .wel-join-btn:hover {
   color: #f00 !important;
@@ -225,6 +226,10 @@ footer {
   text-transform: uppercase;
   display: inline-block;
   margin-top: 48px;
+  transition: all ease-in-out 500ms;
+}
+.party-time a.join:hover {
+  background-color: rgb(248, 89, 89);
 }
 /* Party Time CSS end  */
 /* Coming soon section CSS start  */
@@ -240,7 +245,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 463px;
 }
@@ -306,5 +311,42 @@ footer {
   line-height: 32px;
   margin-bottom: 43px;
 }
+
 /* Coming soon section CSS end  */
+/* Holiday sale css tart  */
+.holy-sale {
+  height: 986px;
+  margin-top: 120px;
+}
+.holy-sale .holy-text-sec {
+  text-align: center;
+}
+.holy-sale .holy-text-sec .func {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holy-sale .holy-text-sec .fefty-off {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.holy-sale .holy-text-sec .fefty-off span {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holy-sale .holy-text-sec .holy-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+
+/* Holiday sale css end  */
 /* Main CSS end  */
