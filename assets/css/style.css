@@ -472,4 +472,64 @@ footer {
 }
 
 /* Newsletter section CSS end  */
+/* Footer CSS start   */
+.footer {
+  margin-top: 120px;
+  background: #070211;
+}
+.footer .row {
+  color: #fff;
+  display: block;
+  float: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.footer .row:last-child {
+  border: none;
+}
+.footer .row .flex-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .row .flex-wrap p {
+  margin-bottom: 16px;
+}
+.footer .row .flex-wrap .right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  width: 400px;
+}
+.footer .row .flex-wrap .right p {
+  display: flex;
+  width: 100%;
+  float: left;
+  gap: 16px;
+}
+.footer .row .social-icon {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.footer .row .fe-btm-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Footer CSS end   */
 /* Main CSS end  */
