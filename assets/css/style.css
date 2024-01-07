@@ -397,4 +397,79 @@ footer {
   gap: 24px;
 }
 /* Portfolio section CSS end  */
+/* Newsletter section CSS start  */
+.newsletter {
+  margin-top: 120px;
+  height: 616px;
+}
+.newsletter .container {
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  height: 616px;
+  display: block;
+  text-align: center;
+}
+
+.newsletter .news-wrap {
+  width: 896px;
+  margin: 80px auto;
+  text-align: center;
+  display: inline-block;
+}
+.newsletter .news-wrap img {
+  width: 150px;
+  margin-bottom: 40px;
+}
+.newsletter .news-wrap .subs {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.newsletter .news-wrap p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+  display: inline-block;
+}
+.newsletter .news-wrap .input-group {
+  position: relative;
+  width: 648px;
+  text-align: center;
+  margin: 0 auto;
+}
+.newsletter .news-wrap .input-group .inp-control {
+  width: calc(648px - 30px);
+  height: 72px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding-left: 30px;
+}
+.newsletter .news-wrap .input-group .sub-btn {
+  padding: 24px 56px;
+  background-color: #f00;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all ease-in-out 500ms;
+}
+.newsletter .news-wrap .input-group .sub-btn:hover {
+  background-color: rgb(248, 89, 89);
+}
+
+/* Newsletter section CSS end  */
 /* Main CSS end  */
