@@ -347,6 +347,8 @@ footer {
   line-height: 32px;
   margin-bottom: 64px;
 }
+.holy-sale .hoy-img img {
+}
 
 /* Holiday sale css end  */
 /* Portfolio section CSS start  */
@@ -395,6 +397,16 @@ footer {
   justify-content: space-around;
   align-items: center;
   gap: 24px;
+}
+.portfolio .portfolio-wrap .port-item {
+  overflow: hidden;
+  transition: all ease-in-out 500ms;
+  border-radius: 16px;
+}
+.portfolio .portfolio-wrap .port-item img:hover {
+  width: calc(100% + 10px);
+  transition: all ease-in-out 500ms;
+  filter: grayscale(100%);
 }
 /* Portfolio section CSS end  */
 /* Newsletter section CSS start  */
